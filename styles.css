@@ -27,11 +27,17 @@ body {
 }
 
 .btn1 {
+  display: flex;             
+  justify-content: space-between;
+  padding: 10px 20px; 
   grid-column-start: 1;
-  grid-column-end: 3;
-  padding: auto;
-  justify-content: space-evenly;
+  grid-column-end: 3;          
 }
+
+.label {
+  margin: 0.5px;              
+}
+
 
 .buttons {
   display: grid;
