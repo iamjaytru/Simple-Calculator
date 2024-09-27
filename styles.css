@@ -1,0 +1,100 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  /* font-family:Arial,sans-serif */
+}
+
+.calculator {
+  display: grid;
+  justify-content: start;
+  margin: 3rem;
+}
+
+.display {
+  display: grid;
+  height: 6rem;
+  width: 52rem;
+  border-radius: 1rem;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.display:active {
+  border: 1px solid #4285f4;
+  outline: none;
+}
+
+.btn1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: auto;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(7, 7rem);
+  grid-template-rows: repeat(5, 3rem);
+  grid-gap: 10px;
+  justify-content: start;
+}
+
+.buttons > * {
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  cursor: pointer;
+}
+.buttons > :nth-child(10) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(11) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(12) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(17) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(18) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(19) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(24) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(25) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(26) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(31) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(32) {
+  background-color: whitesmoke;
+}
+
+.buttons > :nth-child(33) {
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  color: white;
+}
